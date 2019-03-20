@@ -1,0 +1,186 @@
+2019-03-19 19:17:16.929  INFO 4448 --- [main] c.example.chapter3.Chapter3Application   : Starting Chapter3Application on DESKTOP-C8JF99J with PID 4448 (D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3\target\classes started by HaShu in D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3)
+2019-03-19 19:17:16.937  INFO 4448 --- [main] c.example.chapter3.Chapter3Application   : No active profile set, falling back to default profiles: default
+2019-03-19 19:17:19.902  INFO 4448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-19 19:17:19.963  INFO 4448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-19 19:17:19.963  INFO 4448 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-19 19:17:19.981  INFO 4448 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-03-19 19:17:19.981  INFO 4448 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-03-19 19:17:19.981  INFO 4448 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-03-19 19:17:19.982  INFO 4448 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-03-19 19:17:19.991  INFO 4448 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-03-19 19:17:20.265  INFO 4448 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-19 19:17:20.267  INFO 4448 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3167 ms
+2019-03-19 19:17:20.759  INFO 4448 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-19 19:17:21.216  INFO 4448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-19 19:17:21.226  INFO 4448 --- [main] c.example.chapter3.Chapter3Application   : Started Chapter3Application in 5.187 seconds (JVM running for 7.435)
+2019-03-19 19:20:09.000  INFO 5696 --- [main] c.example.chapter3.Chapter3Application   : Starting Chapter3Application on DESKTOP-C8JF99J with PID 5696 (D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3\target\classes started by HaShu in D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3)
+2019-03-19 19:20:09.007  INFO 5696 --- [main] c.example.chapter3.Chapter3Application   : No active profile set, falling back to default profiles: default
+2019-03-19 19:20:12.336  INFO 5696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-19 19:20:12.392  INFO 5696 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-19 19:20:12.393  INFO 5696 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-19 19:20:12.409  INFO 5696 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-03-19 19:20:12.409  INFO 5696 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-03-19 19:20:12.410  INFO 5696 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-03-19 19:20:12.410  INFO 5696 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-03-19 19:20:12.419  INFO 5696 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-03-19 19:20:12.643  INFO 5696 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-19 19:20:12.645  INFO 5696 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3448 ms
+2019-03-19 19:20:12.773  WARN 5696 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bussinessPerson': Unsatisfied dependency expressed through field 'animal'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.example.chapter3.pojo.definitioin.Animal' available: expected single matching bean but found 2: cat,dog
+2019-03-19 19:20:12.779  INFO 5696 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-03-19 19:20:12.813  INFO 5696 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-19 19:20:12.828 ERROR 5696 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field animal in com.example.chapter3.pojo.BussinessPerson required a single bean, but 2 were found:
+	- cat: defined in file [D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3\target\classes\com\example\chapter3\pojo\Cat.class]
+	- dog: defined in file [D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3\target\classes\com\example\chapter3\pojo\Dog.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2019-03-19 19:25:34.573  INFO 1828 --- [main] c.example.chapter3.Chapter3Application   : Starting Chapter3Application on DESKTOP-C8JF99J with PID 1828 (D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3\target\classes started by HaShu in D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3)
+2019-03-19 19:25:34.589  INFO 1828 --- [main] c.example.chapter3.Chapter3Application   : No active profile set, falling back to default profiles: default
+2019-03-19 19:25:39.418  INFO 1828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-19 19:25:39.494  INFO 1828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-19 19:25:39.495  INFO 1828 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-19 19:25:39.513  INFO 1828 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-03-19 19:25:39.514  INFO 1828 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-03-19 19:25:39.514  INFO 1828 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-03-19 19:25:39.514  INFO 1828 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-03-19 19:25:39.540  INFO 1828 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-03-19 19:25:39.819  INFO 1828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-19 19:25:39.820  INFO 1828 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5048 ms
+2019-03-19 19:25:40.396  INFO 1828 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-19 19:25:40.884  INFO 1828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-19 19:25:40.892  INFO 1828 --- [main] c.example.chapter3.Chapter3Application   : Started Chapter3Application in 7.28 seconds (JVM running for 9.317)
+2019-03-19 19:31:54.553  INFO 6636 --- [main] c.example.chapter3.Chapter3Application   : Starting Chapter3Application on DESKTOP-C8JF99J with PID 6636 (D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3\target\classes started by HaShu in D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3)
+2019-03-19 19:31:54.560  INFO 6636 --- [main] c.example.chapter3.Chapter3Application   : No active profile set, falling back to default profiles: default
+2019-03-19 19:31:57.882  INFO 6636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-19 19:31:57.943  INFO 6636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-19 19:31:57.944  INFO 6636 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-19 19:31:57.961  INFO 6636 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-03-19 19:31:57.962  INFO 6636 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-03-19 19:31:57.962  INFO 6636 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-03-19 19:31:57.963  INFO 6636 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-03-19 19:31:57.971  INFO 6636 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-03-19 19:31:58.237  INFO 6636 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-19 19:31:58.238  INFO 6636 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3565 ms
+2019-03-19 19:31:58.802  INFO 6636 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-19 19:31:59.248  INFO 6636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-19 19:31:59.256  INFO 6636 --- [main] c.example.chapter3.Chapter3Application   : Started Chapter3Application in 5.545 seconds (JVM running for 7.453)
+2019-03-19 19:38:35.277  INFO 12092 --- [main] c.example.chapter3.Chapter3Application   : Starting Chapter3Application on DESKTOP-C8JF99J with PID 12092 (D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3\target\classes started by HaShu in D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3)
+2019-03-19 19:38:35.492  INFO 12092 --- [main] c.example.chapter3.Chapter3Application   : No active profile set, falling back to default profiles: default
+2019-03-19 19:38:38.560  INFO 12092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-19 19:38:38.617  INFO 12092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-19 19:38:38.618  INFO 12092 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-19 19:38:38.637  INFO 12092 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-03-19 19:38:38.637  INFO 12092 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-03-19 19:38:38.638  INFO 12092 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-03-19 19:38:38.638  INFO 12092 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-03-19 19:38:38.647  INFO 12092 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-03-19 19:38:38.871  INFO 12092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-19 19:38:38.872  INFO 12092 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3255 ms
+2019-03-19 19:38:39.406  INFO 12092 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-19 19:38:39.830  INFO 12092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-19 19:38:39.839  INFO 12092 --- [main] c.example.chapter3.Chapter3Application   : Started Chapter3Application in 5.417 seconds (JVM running for 7.498)
+2019-03-19 19:44:46.170  INFO 8944 --- [main] c.example.chapter3.Chapter3Application   : Starting Chapter3Application on DESKTOP-C8JF99J with PID 8944 (D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3\target\classes started by HaShu in D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3)
+2019-03-19 19:44:46.178  INFO 8944 --- [main] c.example.chapter3.Chapter3Application   : No active profile set, falling back to default profiles: default
+2019-03-19 19:44:49.356  INFO 8944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-19 19:44:49.429  INFO 8944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-19 19:44:49.430  INFO 8944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-19 19:44:49.447  INFO 8944 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-03-19 19:44:49.448  INFO 8944 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-03-19 19:44:49.449  INFO 8944 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-03-19 19:44:49.450  INFO 8944 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-03-19 19:44:49.461  INFO 8944 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-03-19 19:44:49.696  INFO 8944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-19 19:44:49.697  INFO 8944 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3374 ms
+2019-03-19 19:44:50.225  INFO 8944 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-19 19:44:50.658  INFO 8944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-19 19:44:50.668  INFO 8944 --- [main] c.example.chapter3.Chapter3Application   : Started Chapter3Application in 5.443 seconds (JVM running for 7.618)
+2019-03-19 19:51:56.878  INFO 10092 --- [main] c.example.chapter3.Chapter3Application   : Starting Chapter3Application on DESKTOP-C8JF99J with PID 10092 (D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3\target\classes started by HaShu in D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3)
+2019-03-19 19:51:56.900  INFO 10092 --- [main] c.example.chapter3.Chapter3Application   : No active profile set, falling back to default profiles: default
+2019-03-19 19:52:00.210  INFO 10092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-19 19:52:00.273  INFO 10092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-19 19:52:00.274  INFO 10092 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-19 19:52:00.296  INFO 10092 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-03-19 19:52:00.296  INFO 10092 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-03-19 19:52:00.296  INFO 10092 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-03-19 19:52:00.297  INFO 10092 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-03-19 19:52:00.307  INFO 10092 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-03-19 19:52:00.568  INFO 10092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-19 19:52:00.569  INFO 10092 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3526 ms
+2019-03-19 19:52:01.082  INFO 10092 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-19 19:52:01.520  INFO 10092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-19 19:52:01.529  INFO 10092 --- [main] c.example.chapter3.Chapter3Application   : Started Chapter3Application in 5.526 seconds (JVM running for 7.496)
+2019-03-19 19:53:14.733  INFO 10856 --- [main] c.example.chapter3.Chapter3Application   : Starting Chapter3Application on DESKTOP-C8JF99J with PID 10856 (D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3\target\classes started by HaShu in D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3)
+2019-03-19 19:53:14.750  INFO 10856 --- [main] c.example.chapter3.Chapter3Application   : No active profile set, falling back to default profiles: default
+2019-03-19 19:53:18.049  INFO 10856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-19 19:53:18.121  INFO 10856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-19 19:53:18.122  INFO 10856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-19 19:53:18.141  INFO 10856 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-03-19 19:53:18.142  INFO 10856 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-03-19 19:53:18.142  INFO 10856 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-03-19 19:53:18.142  INFO 10856 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-03-19 19:53:18.153  INFO 10856 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-03-19 19:53:18.450  INFO 10856 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-19 19:53:18.451  INFO 10856 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3521 ms
+2019-03-19 19:53:19.144  INFO 10856 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-19 19:53:19.793  INFO 10856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-19 19:53:19.806  INFO 10856 --- [main] c.example.chapter3.Chapter3Application   : Started Chapter3Application in 6.798 seconds (JVM running for 14.158)
+2019-03-19 19:53:35.079  INFO 10856 --- [Thread-21] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-19 19:54:01.658  INFO 8172 --- [main] c.example.chapter3.Chapter3Application   : Starting Chapter3Application on DESKTOP-C8JF99J with PID 8172 (D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3\target\classes started by HaShu in D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3)
+2019-03-19 19:54:01.664  INFO 8172 --- [main] c.example.chapter3.Chapter3Application   : No active profile set, falling back to default profiles: default
+2019-03-19 19:54:04.497  INFO 8172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-19 19:54:04.580  INFO 8172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-19 19:54:04.581  INFO 8172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-19 19:54:04.600  INFO 8172 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-03-19 19:54:04.601  INFO 8172 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-03-19 19:54:04.601  INFO 8172 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-03-19 19:54:04.602  INFO 8172 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-03-19 19:54:04.612  INFO 8172 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-03-19 19:54:04.964  INFO 8172 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-19 19:54:04.965  INFO 8172 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3171 ms
+2019-03-19 19:54:05.487  INFO 8172 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-19 19:54:05.927  INFO 8172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-19 19:54:05.936  INFO 8172 --- [main] c.example.chapter3.Chapter3Application   : Started Chapter3Application in 5.185 seconds (JVM running for 7.249)
+2019-03-19 19:55:30.816  INFO 13448 --- [main] c.example.chapter3.Chapter3Application   : Starting Chapter3Application on DESKTOP-C8JF99J with PID 13448 (D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3\target\classes started by HaShu in D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3)
+2019-03-19 19:55:30.852  INFO 13448 --- [main] c.example.chapter3.Chapter3Application   : No active profile set, falling back to default profiles: default
+2019-03-19 19:55:34.143  INFO 13448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-19 19:55:34.202  INFO 13448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-19 19:55:34.202  INFO 13448 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-19 19:55:34.218  INFO 13448 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-03-19 19:55:34.219  INFO 13448 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-03-19 19:55:34.220  INFO 13448 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-03-19 19:55:34.220  INFO 13448 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-03-19 19:55:34.228  INFO 13448 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-03-19 19:55:34.481  INFO 13448 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-19 19:55:34.482  INFO 13448 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3454 ms
+2019-03-19 19:55:35.035  INFO 13448 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-19 19:55:35.466  INFO 13448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-19 19:55:35.475  INFO 13448 --- [main] c.example.chapter3.Chapter3Application   : Started Chapter3Application in 5.638 seconds (JVM running for 7.616)
+2019-03-19 19:56:31.421  INFO 6220 --- [main] c.example.chapter3.Chapter3Application   : Starting Chapter3Application on DESKTOP-C8JF99J with PID 6220 (D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3\target\classes started by HaShu in D:\IDEAProject\ideapjFirst\pjsecond\pjthree\chapter3)
+2019-03-19 19:56:31.433  INFO 6220 --- [main] c.example.chapter3.Chapter3Application   : No active profile set, falling back to default profiles: default
+2019-03-19 19:56:34.707  INFO 6220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-19 19:56:34.773  INFO 6220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-19 19:56:34.775  INFO 6220 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-19 19:56:34.794  INFO 6220 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-03-19 19:56:34.794  INFO 6220 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-03-19 19:56:34.795  INFO 6220 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-03-19 19:56:34.796  INFO 6220 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-03-19 19:56:34.804  INFO 6220 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-03-19 19:56:35.136  INFO 6220 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-19 19:56:35.138  INFO 6220 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3555 ms
+2019-03-19 19:56:35.784  INFO 6220 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-19 19:56:36.400  INFO 6220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-19 19:56:36.410  INFO 6220 --- [main] c.example.chapter3.Chapter3Application   : Started Chapter3Application in 6.669 seconds (JVM running for 9.742)
+2019-03-19 19:57:42.290  INFO 6220 --- [Thread-17] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
